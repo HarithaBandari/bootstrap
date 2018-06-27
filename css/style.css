@@ -19,7 +19,6 @@
     margin-top:100px;
     margin-right: 10px;
     font-family: 'Ovo',serif;
-  
   }
   nav{
     font-family: 'Ovo',serif;
@@ -27,29 +26,20 @@
   .carousel-inner img {
     width: 100%;
     height: 100%;
+    margin-top:80px;
     font-family: 'Ovo',serif;
 } 
 footer{
     background: palegoldenrod;
      }
-    footer li{
+    footer li{    
      display:inline;
+     padding:20px;
                 }
-                @media screen  and  (max-width:959px){
-                    header{
-                        width:100%;}
-                        footer{
-                            width:100%;}
-                        .item-h1{
-                            width:100%;
-                        }
-                        .item-h2{
-                            width:100%;
-                        }
-                        .item-hl{
-                            width:100%;
-                        }
-                        .carousel-inner img {
-                            width: 100%;   
+                .item-h3{
+                    flex:1;
+               margin-right: 10px;
+                font-family: 'Ovo',serif;
+                    color:white;
                 }
-            }
+           
